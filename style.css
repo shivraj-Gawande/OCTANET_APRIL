@@ -1,0 +1,382 @@
+body{
+    background-color: #51048b;
+    color: black;
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+    
+}
+.main{
+    display: flex;
+    justify-content: center;
+}
+.nav{
+    height: 60px;
+    width: 80vw;
+    background-color: rgb(255, 255, 255);
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 10px  #12121254;
+   
+}
+.nav a {
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+    font-size: 17px;
+    padding: 20px;
+    
+}
+.nav1 a:hover{
+    color: #6400B3;
+
+}
+
+.nav1{
+    font-size: 10px;
+    margin-left: 15px;
+    
+}
+#logo{
+    font-size: 20px;
+    font-family: "Pacifico",cursive;
+    color: #420074;
+
+}
+.nav2{
+    margin-right: 15px;
+}
+.nav2  button{
+    border-radius: 6px;
+    font-size: 15px;
+    border: 0px;
+    font-weight: 700;
+    background-color:#420074;
+    color: white;
+    height: 30px;
+    width: fit-content;
+    margin-right: 15px;
+    cursor: pointer;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.nav button:hover{
+    background-color: #6308a8;
+    
+}
+.Intro{
+    
+    height: 340px;
+   
+    
+}
+.Intro h1{
+    font-family: "Pacifico",cursive;
+    font-size: 45px;
+    color:white;
+    text-align: center;
+    margin-bottom: 0px;
+   
+
+}
+.Intro p{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    margin-top: 5px;
+    
+}
+.Intro button{
+    border: none;
+    font-size: 20px;
+    display: block;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.806);
+    color: rgb(0, 0, 0);
+    border-radius: 2px;
+    margin-top: 30px;
+    height: 40px;
+    width: 150px;
+    font-weight: 700;
+}
+
+.heroimg{
+    height: 300px;
+    width:100%;
+    background-color: #D6F0FD;
+    display: Flex;
+    justify-content: center;
+}
+.mainsec img{
+    position: absolute;
+    top: 200px;
+    left:28%;
+    height:600px;
+    width: 600px;
+}
+.services{
+    height: 700px;
+    width:100%;
+    background-color: rgb(253, 255, 245);
+     display: flex;
+    justify-content: center;
+    align-items: center; 
+    position: relative;
+    top:-40px;
+   
+}
+
+.services .serv{
+    height: 650px;
+    width:90%;
+    background-color: #420074;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   
+    
+    
+}
+.head{
+    text-align: center;
+
+    margin-top: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #420074;
+   padding-bottom: 20px;
+    
+}
+.Intro .btn{
+    border-radius: 10px;
+    background-color: aliceblue;
+    opacity: 0.7;
+    color: black;
+}
+.Intro .btn:hover{
+   
+    cursor: pointer;
+}
+
+.Intro span {
+    color: white;
+}
+
+.card{
+    height: 150px;
+    width: 260px;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.495);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 37px;
+    padding-left: 20px;
+    margin-left: 15%;
+   
+    
+}
+.card img{
+    height: 170px;
+    width: 170px;
+    
+    position: relative;
+    bottom: 10%;
+}
+.card h2{
+    margin-left: 0px;
+    color: antiquewhite;
+    margin-right: 100px;
+    font-size: 25px;
+
+}
+.card:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+    transform: scale(1.03);
+    
+}
+.content1{
+    animation: in 1s ease-in-out;
+    
+}
+@keyframes in {
+    from{
+        transform: translateX(-200px);
+    }
+    to{
+        transform: translateX(0px);
+
+    }
+}
+
+.servhead{
+    position: relative;
+    height:80px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+}
+.card span{
+    color: white;
+    margin-top:  15px;
+    font-size: 30px;
+}
+.card span:hover{
+    animation: arr 0.7s ease-in forwards;
+    cursor: pointer;
+   
+}
+@keyframes arr{
+    from{
+        transform: translateX(0px);
+    }
+    to{
+        transform: translateX(20px);
+    }
+    
+}
+
+.about{
+    height: 600px;
+    width: 100%;
+    background-color: rgb(240, 237, 237);
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.subsec{
+    height: 90%;
+    width: 90%;
+    border-radius: 10px;
+    display: flex;
+    background-color: rgb(240, 237, 237);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.subsec img{
+    height: 450px;
+    width: 350px;
+    position: relative;
+    
+    opacity: 50%;
+}
+.box{
+    height: 480px;
+    width: 350px;
+    background-color: #6400B3;
+    position: relative;
+    right: 50px;
+    top: 40px;
+    text-align: center;
+    border-radius: 20px 0px;
+}
+.box h2{
+    color: wheat;
+       
+}
+.box p{
+    text-align: justify;
+    margin-left: 30px;
+    margin-right: 30px;
+    color: white;
+   
+}
+.box h3{
+    color: white;
+    text-decoration: underline;
+    color: rgb(255, 213, 0);
+}
+.contact{
+    height: 480px;
+    width: 90%;
+    background-color: #fcfaf7;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding-left: 10%;
+}
+.contact h2{
+    font-size: 30px;
+    width: 180px;  
+}
+ .contactus{
+    height: 80%;
+    width:400px;
+    margin-left: 40px;
+    margin-right: 250px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f923;
+  }
+
+ .formgrp {
+    margin-bottom: 20px;
+  }
+
+  .formgrp label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+
+  .formgrp input {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+
+ 
+  .sendbtn{
+    display: block;
+    width: 96%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #6400B3;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .sendbtn:hover {
+    background-color: #460379;
+  }
+
+  .footer{
+    background-color: #6400B3;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.subfoot{
+    width: 80%;
+    margin: auto;
+}
+
+.webname{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.icons a{
+    color: #ffffff9c;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.icons a:hover{
+    color: white;
+}
